@@ -25,6 +25,8 @@ nav{
 
 section{
     padding: 10px;
+    min-width: 200px;
+
     background-color: azure;
     display: flex;
     justify-content: space-between;
@@ -37,12 +39,15 @@ aside{
     background-color: aliceblue;
     border-radius: 10px;
     flex-direction: column;
+    min-width: 200px;
     min-width: 350px;
 }
 
 main{
     display: flex;
     flex-direction: column;
+    min-width: 200px;
+    height: 200px;
 }
 
 footer {
